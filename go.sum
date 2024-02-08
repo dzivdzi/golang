@@ -4,3 +4,7 @@ github.com/dzivdzi/puppy v0.0.0-20240208194843-ff6d72a684af h1:cbNkFhazb+9sq0CJc
 github.com/dzivdzi/puppy v0.0.0-20240208194843-ff6d72a684af/go.mod h1:FhCRmO6nxh6h2brVANH7bLHWPOhdn5Mm2lxrwI+HvIA=
 github.com/dzivdzi/puppy v0.0.0-20240208200420-001f5df6ec19 h1:nAz1m7mSlUUQqsE0bXYXGNnZxPvomp+QTxpa67+otXM=
 github.com/dzivdzi/puppy v0.0.0-20240208200420-001f5df6ec19/go.mod h1:Onn3IMEhiiebXcDdWyDxJN4h2MhrLehyNHN9Bv6U3So=
+github.com/dzivdzi/puppy v1.3.0 h1:g0Kt+0poocjEwSnqStyLBTD62nhSOoO+SU5U9z2r8z4=
+github.com/dzivdzi/puppy v1.3.0/go.mod h1:Onn3IMEhiiebXcDdWyDxJN4h2MhrLehyNHN9Bv6U3So=
+github.com/dzivdzi/puppy v1.4.0 h1:AyB0KJHnK0l3fkLf5jBGfNAImXhcViiBc0RcfWX2GqQ=
+github.com/dzivdzi/puppy v1.4.0/go.mod h1:Onn3IMEhiiebXcDdWyDxJN4h2MhrLehyNHN9Bv6U3So=
