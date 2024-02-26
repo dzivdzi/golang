@@ -2,3 +2,5 @@ github.com/dzivdzi/dog v0.0.0-20240208195846-ec87075a1536 h1:wfkZAbJF/8pt+F9WO5h
 github.com/dzivdzi/dog v0.0.0-20240208195846-ec87075a1536/go.mod h1:EQBOQbTpfYOYjrX5oj/gNCUfzofpnxVCcswzdP+FHZ4=
 github.com/dzivdzi/puppy v1.4.0 h1:AyB0KJHnK0l3fkLf5jBGfNAImXhcViiBc0RcfWX2GqQ=
 github.com/dzivdzi/puppy v1.4.0/go.mod h1:Onn3IMEhiiebXcDdWyDxJN4h2MhrLehyNHN9Bv6U3So=
+golang.org/x/crypto v0.19.0 h1:ENy+Az/9Y1vSrlrvBSyna3PITt4tiZLf7sgCjZBX7Wo=
+golang.org/x/crypto v0.19.0/go.mod h1:Iy9bg/ha4yyC70EfRS8jz+B6ybOBKMaSxLj6P6oBDfU=

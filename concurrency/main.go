@@ -3,8 +3,12 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"runtime"
+	"sync"
 	"time"
 )
+
+var wg sync.WaitGroup
 
 func main() {
 	// CONDITIONAL
@@ -42,5 +46,30 @@ func main() {
 		fmt.Println("value from channel 1", v1)
 	case v2 := <-ch2:
 		fmt.Println("value from channel 2", v2)
+	}
+
+	fmt.Println("OS\t", runtime.GOOS)
+	fmt.Println("ARCH\t", runtime.GOARCH)
+	fmt.Println("CPU's\t", runtime.NumCPU())
+	fmt.Println("Goroutines\t", runtime.NumGoroutine())
+	wg.Add(1)
+	go foo()
+	bar()
+	fmt.Println("CPU's\t", runtime.NumCPU())
+	fmt.Println("Goroutines\t", runtime.NumGoroutine())
+	wg.Wait()
+
+}
+
+func foo() {
+	for i := 0; i < 10; i++ {
+		fmt.Println("foo:", i)
+	}
+	wg.Done()
+}
+
+func bar() {
+	for i := 0; i < 10; i++ {
+		fmt.Println("bar:", i)
 	}
 }
